@@ -1,0 +1,75 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 20px;
+   padding: 0;
+background: linear-gradient(to right, #eacda3, #d3a261);
+
+}
+h1{
+ text-align: center;
+ color:rgb(27, 2, 2) ;
+}
+
+form{
+    max-width:600px ;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #d3a261;
+    box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.42);
+padding: 20px;
+}
+
+
+fieldset{
+    border: 2px solid rgb(32, 1, 1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+background-color: #be965e ; 
+
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(63, 3, 3);
+
+}
+label{
+    display: block;
+    font-weight: 100;
+    margin-top: 10px;
+}
+input,textarea{
+    padding:8px;
+    margin-top:4px ;
+    border: 1px solid rgb(36, 2, 2);
+    border-radius: 4px;
+width: calc(100% - 1px);
+box-sizing: border-box;
+
+}
+
+button{
+    display: inline;
+    width: 100%;
+    padding: 10px;
+    margin-top:4px ;
+    border-radius:8px ;
+    background-color:#b67827;
+    color: #fff;
+border:2px solid #e9c28c;
+border-radius: 10px;
+cursor: pointer;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+button:hover{
+background-color: #be965e;
+
+}
+:placeholder-shown{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100;
+}
